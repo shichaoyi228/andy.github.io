@@ -20,7 +20,7 @@ var myImage = document.querySelector('img');			//document.querySelector()抓出�
 myImage.onclick = function() {							//將.onclick 設定為一個function(匿名函數)
     let mySrc = myImage.getAttribute('src');			//getAttribute()抓出屬性(attribute)(這裡是src)
     if ( mySrc === 'images/cat.png' ) {					//設定conditionals
-      myImage.setAttribute ('src','../xmas.png');		//setAttribute()給予屬性
+      myImage.setAttribute ('src','images/xmas.png');		//setAttribute()給予屬性
     } else {
       myImage.setAttribute ('src','images/cat.png');
     }
